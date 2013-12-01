@@ -17,8 +17,9 @@ namespace EchoService_WebRole
         string EchoGet(string message);
 
         [OperationContract]
-        [WebInvoke(Method = "POST", UriTemplate = "echo-post")]
+        [WebInvoke(Method = "POST",
+                   UriTemplate = "echo-post",
+                   ResponseFormat = WebMessageFormat.Json)]
         string EchoPost(string message);
-
     }
 }

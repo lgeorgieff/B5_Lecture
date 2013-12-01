@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="EchoService_WebRole.AzureLocalStorageTraceListener">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>AzureLocalStorageTraceListener.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EchoService_WebRole.EchoService" BaseTypeListCollapsed="true">
+    <Position X="5.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAQAAAAAAAAA=</HashCode>
+      <FileName>Service1.svc.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.346" />
+  </Class>
+  <Class Name="EchoService_WebRole.WebRole">
+    <Position X="0.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WebRole.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="EchoService_WebRole.IEchoService">
+    <Position X="3.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAQAAAAAAAAA=</HashCode>
+      <FileName>IEchoService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

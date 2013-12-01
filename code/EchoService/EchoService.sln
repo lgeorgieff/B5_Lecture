@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "EchoService", "EchoService\EchoService.ccproj", "{92F6A6C7-A780-4D99-AA0D-5F43E45E5A70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EchoService_WebRole", "EchoService_WebRole\EchoService_WebRole.csproj", "{9364017A-65C8-44B3-860A-5DAA7D0F3B3F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92F6A6C7-A780-4D99-AA0D-5F43E45E5A70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92F6A6C7-A780-4D99-AA0D-5F43E45E5A70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92F6A6C7-A780-4D99-AA0D-5F43E45E5A70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92F6A6C7-A780-4D99-AA0D-5F43E45E5A70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9364017A-65C8-44B3-860A-5DAA7D0F3B3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9364017A-65C8-44B3-860A-5DAA7D0F3B3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9364017A-65C8-44B3-860A-5DAA7D0F3B3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9364017A-65C8-44B3-860A-5DAA7D0F3B3F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

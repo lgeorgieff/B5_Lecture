@@ -12,12 +12,12 @@ namespace EchoService_WebRole
     {
         public string EchoGet(string message)
         {
-            return "[" + DateTime.Now.ToString("dd.MM.yyyy") + "] EchoGet(): " + message;
+            return "[" + DateTime.Now.ToString("dd.MM.yyyy ss:mm:hh") + "] EchoGet(): " + message;
         }
 
         public string EchoPost(string message)
         {
-            return "[" + DateTime.Now.ToString("dd.MM.yyyy") + "] EchoPost(): " + message;
+            return "[" + DateTime.Now.ToString("dd.MM.yyyy ss:mm:hh") + "] EchoPost(): " + message;
         }
     }
 }

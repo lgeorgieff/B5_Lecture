@@ -17,5 +17,16 @@
     <LocalResources>
       <LocalStorage name="EchoService_WebRole.svclog" sizeInMB="1000" cleanOnRoleRecycle="false" />
     </LocalResources>
+    <ConfigurationSettings>
+      <Setting name="Microsoft.ServiceBus.ConnectionString" />
+    </ConfigurationSettings>
   </WebRole>
+  <WorkerRole name="EchoWorker" vmsize="Small">
+    <Imports>
+      <Import moduleName="Diagnostics" />
+    </Imports>
+    <ConfigurationSettings>
+      <Setting name="Microsoft.ServiceBus.ConnectionString" />
+    </ConfigurationSettings>
+  </WorkerRole>
 </ServiceDefinition>

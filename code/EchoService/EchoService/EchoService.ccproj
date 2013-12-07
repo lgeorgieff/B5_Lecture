@@ -46,12 +46,28 @@
       <RoleName>EchoService_WebRole</RoleName>
       <UpdateDiagnosticsConnectionStringOnPublish>True</UpdateDiagnosticsConnectionStringOnPublish>
     </ProjectReference>
+    <ProjectReference Include="..\EchoWorker\EchoWorker.csproj">
+      <Name>EchoWorker</Name>
+      <Project>{5a4d24ca-0ecc-4399-a5f9-06734d267fcd}</Project>
+      <Private>True</Private>
+      <RoleType>Worker</RoleType>
+      <RoleName>EchoWorker</RoleName>
+      <UpdateDiagnosticsConnectionStringOnPublish>True</UpdateDiagnosticsConnectionStringOnPublish>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="EchoService_WebRoleContent\" />
+    <Folder Include="EchoWorkerContent\" />
+    <Folder Include="WorkerRoleWithSBQueue1Content\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="EchoService_WebRoleContent\diagnostics.wadcfg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="EchoWorkerContent\diagnostics.wadcfg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="WorkerRoleWithSBQueue1Content\diagnostics.wadcfg">
       <SubType>Content</SubType>
     </Content>
   </ItemGroup>

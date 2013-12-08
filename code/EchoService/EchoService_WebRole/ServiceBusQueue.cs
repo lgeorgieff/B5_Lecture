@@ -18,9 +18,9 @@ namespace EchoService_WebRole
         public ServiceBusQueue(string name, bool reset)
         {
             this.namespaceManager = NamespaceManager.Create();
-            if (reset && this.namespaceManager.QueueExists(name))
+            if (reset || !this.namespaceManager.QueueExists(name))
             {
-                this.namespaceManager.DeleteQueue(name);
+                if (this.namespaceManager.QueueExists(name)) this.namespaceManager.DeleteQueue(name);
                 this.queueDescription = this.namespaceManager.CreateQueue(name);
             }
             else
